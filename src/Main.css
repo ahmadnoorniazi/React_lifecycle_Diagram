@@ -1,0 +1,113 @@
+body {
+  background-color: #222;
+  text-align : center;
+}
+img{
+    widows: 200px;
+    height: 200px;
+}
+.Des{
+    display:none;
+}
+.Des:target, .Des--desi{
+    display: block;
+}
+.Des:target ~ .Des--desi{
+    display: none;
+}
+.Des:target ~ .Des--close{
+    display: block;
+}
+
+
+.Links{
+     color:#61dafb;
+    border: 3px solid #61dafb;
+    background-color: #222;
+    border-radius:20px;
+    padding: 20px; 
+    text-decoration: none;
+    display: inline-block;
+     padding: 15px;
+  transition: all 0.1s ease-out;
+    
+}
+.Links:hover{
+    background-color: #61dafb;
+    color: #2d2d2d;
+}
+p {
+  margin-top: 20px;
+  line-height: 1.6;
+  font-family: initial;
+ 
+}
+.btns{
+    height: 100px;
+}
+.description2{
+  position: relative;
+  background-color: #2d2d2d;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 100px;
+  max-width: 730px;
+  margin: 40px auto;
+
+}
+.description{
+  position: relative;
+  background-color: #2d2d2d;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 100px;
+  max-width: 730px;
+  margin: 40px auto;
+
+}
+
+li{
+    list-style-type: none;
+}
+.link, .link2{
+    color:#61dafb;
+}
+.btns {
+  display: inline-block;
+  margin-right: -4px;
+}
+.btns:before {
+      content: '➞';
+      color: white;
+      font-size: 1em;
+      vertical-align: middle;
+      margin: 0 0.5em;
+  }
+  .btnss{
+      color: white;
+      display: inline-block;   
+}
+.AllBtns > ul {
+    border-bottom: 1px solid white;
+}  
+.Second, .third{
+    margin-top: 50px;
+}
+.Third{
+    margin-left: -500px;
+}
+.Des--close {
+position: absolute;
+top: 5px;
+right: 15px;
+font-size: 25px;
+display: none;
+}
+.Cancel{
+    color:#61dafb;
+}
+a:hover{
+    text-decoration: underline;
+}
