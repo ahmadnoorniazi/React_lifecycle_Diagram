@@ -1,5 +1,5 @@
 
-# React lifecycle diagram
+# React lifecycle diagram ⚛️ 
 
 # Live Demo 
 
